@@ -57,7 +57,18 @@ axios.interceptors.response.use(
     },
 );
 
+function smooth(id) {
+    document.getElementById(id).scrollIntoView({block: 'start', behavior: 'smooth'})
+}
 
+function _isMobile() {
+    const flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+    return flag;
+}
+
+app.config.globalProperties.$_avatar = 'http://oss.py00.cn/blog/avatar.png'
+app.config.globalProperties.$_isMobile = _isMobile
+app.config.globalProperties.$_smooth = smooth
 app.config.globalProperties.$axios = axios
 app.config.globalProperties.$notice = NoticeMSG
 app.use(router)
