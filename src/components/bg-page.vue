@@ -30,7 +30,7 @@ export default defineComponent({
         const items = []
         return {
             titles: [
-                '山财大本科在读',
+                '浙江大学硕士在读',
                 '地道山东人',
                 '无业码农，独立开发者',
                 '执着于无懈可击的Bug',
@@ -49,7 +49,7 @@ export default defineComponent({
         blink: function () {
             let len = this.items.length
             this.items.push(this.titles[this.index][len])
-            if (len + 1 == this.titles[this.index].length) {
+            if (len + 1 === this.titles[this.index].length) {
                 clearInterval(this.timer)
                 setTimeout(() => {
                     this.full = true

@@ -6,7 +6,7 @@
         style="background-color: #fff;"
     ></el-avatar>
     <span class="name">
-    山财大鲁兆成
+    ZJUer 鲁兆成
   </span>
   </div>
   <div class="menu">
