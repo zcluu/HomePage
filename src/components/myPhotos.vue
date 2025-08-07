@@ -12,7 +12,7 @@ import BaseComponent from "@/components/baseComponent.vue";
 
 let list = []
 for (let i = 0; i < 20; i++) {
-    list.push({src: 'http://oss.py00.cn/blog/' + i + '.png'})
+    list.push({src: '/static/photos/' + i + '.png'})
 }
 let breakpoints = {
     1200: { //当屏幕宽度小于等于1200

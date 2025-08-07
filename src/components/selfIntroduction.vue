@@ -48,12 +48,12 @@ export default defineComponent({
                             indicator-position="none"
                             height="14rem"
                     >
-                        <el-carousel-item v-for="ix in 8"
+                        <el-carousel-item v-for="ix in 7"
                                           style="display: flex; justify-content: center; align-items: center;"
                         >
                             <el-image
                                     style="height: 100%;"
-                                    :src="'http://oss.py00.cn/blog/self-introduction/'+ix+'.jpg'"
+                                    :src="'/static/introduction/'+ix+'.jpg'"
                             ></el-image>
                         </el-carousel-item>
                     </el-carousel>

@@ -2,7 +2,7 @@
     <div class="bg-img">
         <div class="center-box">
             <el-avatar :src="this.$_avatar" :size="160" style="background-color: #fff;"></el-avatar>
-            <div class="name">CS_LZC</div>
+            <div class="name">This is ZCLU !</div>
             <div class="title">
                 <div :class="{blink:full}" class="blink-text" :style="{padding:'1rem 0'}">
                     <template v-for="item in items" :key="item">
@@ -30,10 +30,10 @@ export default defineComponent({
         const items = []
         return {
             titles: [
-                '浙江大学硕士在读',
-                '地道山东人',
-                '无业码农，独立开发者',
-                '执着于无懈可击的Bug',
+                '浙大硕士在读 技术至上',
+                '地道山东人 豪爽且务实',
+                '独立开发者 代码即信仰',
+                '执着于打造 “无懈可击”的Bug',
             ],
             index: 0,
             items: items,
@@ -83,7 +83,7 @@ export default defineComponent({
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(http://oss.py00.cn/blog/img.png);
+  background-image: url(/static/bg.png);
   background-size: cover;
   background-position: center;
 

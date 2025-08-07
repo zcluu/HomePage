@@ -12,31 +12,31 @@ export default defineComponent({
 let items = [
     {
         title: '全国高校计算机能力挑战赛C++全国一等奖',
-        src: 'http://oss.py00.cn/blog/competition-awards/cpp.jpeg',
+        src: '/static/awards/cpp.jpeg',
     },
     {
         title: '全国高校计算机能力挑战赛Python全国二等奖',
-        src: 'http://oss.py00.cn/blog/competition-awards/python.jpeg',
+        src: '/static/awards/python.jpeg',
     },
     {
         title: '团体程序设计天梯赛个人全国二等奖(全校最高分)',
-        src: 'http://oss.py00.cn/blog/competition-awards/tts1.png',
+        src: '/static/awards/tts1.png',
     },
     {
         title: '团体程序设计天梯赛团队全国三等奖',
-        src: 'http://oss.py00.cn/blog/competition-awards/tts2.png',
+        src: '/static/awards/tts2.png',
     },
     {
         title: '蓝桥杯全国软件和信息技术专业人才大赛全国三等奖',
-        src: 'http://oss.py00.cn/blog/competition-awards/lqb.jpg',
+        src: '/static/awards/lqb.jpg',
     },
     {
         title: '中国大学生服务外包创新创业大赛华东三等奖',
-        src: 'http://oss.py00.cn/blog/competition-awards/fwwb.jpg',
+        src: '/static/awards/fwwb.jpg',
     },
     {
         title: '中国大学生计算机设计大赛山东省三等奖',
-        src: 'http://oss.py00.cn/blog/competition-awards/jsjsjds.jpg',
+        src: '/static/awards/jsjsjds.jpg',
     },
 ]
 </script>

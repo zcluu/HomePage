@@ -66,7 +66,7 @@ function _isMobile() {
     return flag;
 }
 
-app.config.globalProperties.$_avatar = 'http://oss.py00.cn/blog/avatar.png'
+app.config.globalProperties.$_avatar = '/static/avatar.png'
 app.config.globalProperties.$_isMobile = _isMobile
 app.config.globalProperties.$_smooth = smooth
 app.config.globalProperties.$axios = axios
