@@ -25,9 +25,10 @@ jobs:
       - name: "Build App"
         run: npm run build
 
-      - name: "Deploy to GitHub Pages"
+      - name: "Deploy to External Repository"
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token : ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.GITHUB_TOKEN  }}
+          external_repository: zcluu/zcluu.github.io
           publish_dir: ./dist
-
+          publish_branch: gh-pages
