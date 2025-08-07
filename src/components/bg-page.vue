@@ -30,10 +30,10 @@ export default defineComponent({
         const items = []
         return {
             titles: [
-                '浙大硕士在读 技术至上',
-                '地道山东人 豪爽且务实',
-                '独立开发者 代码即信仰',
-                '执着于打造 “无懈可击”的Bug',
+                '浙大码农修炼中 技术为王',
+                '地道山东汉 爽快务实不绕弯',
+                '独立开发者 写代码比喝水还自然',
+                '死磕每一行 誓把Bug逼到无路可逃',
             ],
             index: 0,
             items: items,
